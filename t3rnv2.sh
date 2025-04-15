@@ -86,11 +86,11 @@ fi
 sudo bash -c "cat > $ENV_FILE" <<EOL
 RPC_ENDPOINTS='{
   "l2rn": ["http://b2n.rpc.caldera.xyz/http"],
-  "arbt": ["https://arbitrum-sepolia.drpc.org", "https://sepolia-rollup.arbitrum.io/rpc", "https://arb-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
-  "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.drpc.org", "https://base-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
-  "blst": ["https://sepolia.blast.io", "https://blast-sepolia.drpc.org", "https://blast-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
-  "opst": ["https://sepolia.optimism.io", "https://optimism-sepolia.drpc.org", "https://opt-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
-  "unit": ["https://unichain-sepolia.drpc.org", "https://sepolia.unichain.org", "https://unichain-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
+  "arbt": ["https://arbitrum-sepolia.drpc.org", "https://arb-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
+  "bast": ["https://base-sepolia-rpc.publicnode.com", "https://base-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
+  "blst": ["https://sepolia.blast.io", "https://blast-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
+  "opst": ["https://sepolia.optimism.io", "https://opt-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
+  "unit": ["https://unichain-sepolia.drpc.org",  "https://unichain-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
 "mont": ["https://testnet-rpc.monad.xyz", "https://monad-testnet.g.alchemy.com/v2/$APIKEY_ALCHEMY"]
 }'
 EXECUTOR_MAX_L3_GAS_PRICE="$GAS_PRICE"
