@@ -123,7 +123,7 @@ Environment=EXECUTOR_PROCESS_CLAIMS_ENABLED=true
 Environment=EXECUTOR_PROCESS_PENDING_ORDERS_FROM_API=false
 Environment=EXECUTOR_PROCESS_ORDERS_API_ENABLED=false
 EnvironmentFile=$ENV_FILE
-Environment=ENABLED_NETWORKS=l2rn,arbitrum-sepolia,base-sepolia,blst-sepolia,optimism-sepolia,unichain-sepolia
+Environment=ENABLED_NETWORKS=l2rn,arbitrum-sepolia,base-sepolia,blst-sepolia,optimism-sepolia,unichain-sepolia,monad-testnet 
 
 [Install]
 WantedBy=multi-user.target
