@@ -95,7 +95,7 @@ RPC_ENDPOINTS='{
 }'
 EXECUTOR_MAX_L3_GAS_PRICE="$GAS_PRICE"
 PRIVATE_KEY_LOCAL="$PRIVATE_KEY_LOCAL"
-ENABLED_NETWORKS="l2rn,arbitrum-sepolia,base-sepolia,optimism-sepolia,blast-sepolia,unichain-sepolia,monad-testnet"
+ENABLED_NETWORKS="l2rn,arbitrum-sepolia,base-sepolia,optimism-sepolia,unichain-sepolia,monad-testnet"
 EOL
 
 # Berikan hak akses ke user
