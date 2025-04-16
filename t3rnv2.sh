@@ -91,7 +91,7 @@ RPC_ENDPOINTS='{
   "blst": ["https://sepolia.blast.io", "https://blast-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
   "opst": ["https://sepolia.optimism.io", "https://opt-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
   "unit": ["https://unichain-sepolia.drpc.org",  "https://unichain-sepolia.g.alchemy.com/v2/$APIKEY_ALCHEMY"],
-"mont": ["https://testnet-rpc.monad.xyz", "https://monad-testnet.g.alchemy.com/v2/$APIKEY_ALCHEMY"]
+"mont": ["https://testnet-rpc.monad.xyz"]
 }'
 EXECUTOR_MAX_L3_GAS_PRICE="$GAS_PRICE"
 PRIVATE_KEY_LOCAL="$PRIVATE_KEY_LOCAL"
